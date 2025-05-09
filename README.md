@@ -50,9 +50,8 @@
 🔎 **分析：**  
 ResNet18 模型整體表現明顯優於自定義 ResNet。前者雖然單回合訓練時間較長，但收斂速度與穩定性更佳，能在小資料集上展現強大的泛化能力。
 
-![custom vs resnet18 accuracy](Image/"custom vs resnet18 accuracy.png")
-![custom vs resnet18 loss](Image/"custom vs resnet18 loss.png")
-
+![Custom vs ResNet18 Accuracy](Image/custom_vs_resnet18_accuracy.png)
+![Custom vs ResNet18 Loss](Image/custom_vs_resnet18_loss.png)
 ---
 
 ### ✅ 比較二：ResNet18 vs EfficientNet-B0
@@ -68,8 +67,8 @@ ResNet18 模型整體表現明顯優於自定義 ResNet。前者雖然單回合�
 🔎 **分析：**  
 兩者在準確率上表現相近，但 EfficientNet-B0 訓練速度快、收斂更早，若以效率為考量更具優勢；若追求極致準確率與低損失，ResNet18 表現稍勝。
 
-![resnet18 vs efficientnet accuracy](Image/"resnet18 vs effieinet accuracy.png")
-![resnet18 vs efficientnet loss](Image/"resnet18 vs effieinet loss.png")
+![ResNet18 vs EfficientNet Accuracy](Image/resnet18_vs_efficientnet_accuracy.png)
+![ResNet18 vs EfficientNet Loss](Image/resnet18_vs_efficientnet_loss.png)
 ---
 
 ## 🧠 第二題：異常檢測方法概述
