@@ -50,7 +50,7 @@
 🔎 **分析：**  
 ResNet18 模型整體表現明顯優於自定義 ResNet。前者雖然單回合訓練時間較長，但收斂速度與穩定性更佳，能在小資料集上展現強大的泛化能力。
 
-![custom vs resnet18 accuracy](Image/resnet18_accuracy_plot.png)
+![custom vs resnet18 accuracy](../Image/resnet18_accuracy_plot.png)
 ![custom vs resnet18 loss](Image/efficientnet_accuracy_plot.png)
 
 ---
